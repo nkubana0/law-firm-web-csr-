@@ -1,0 +1,143 @@
+body {
+    font-family: Inter;
+    background-image: url("./assets/hero.png");
+    background-repeat: no-repeat;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+}
+.logo h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.73px;
+    color: #FFFFFF;
+}
+.navigation nav {
+    display: flex;
+
+}
+.navigation nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation nav ul li {
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 350;
+}
+.navigation nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+.get-in-touch {
+    background-color: #D4AF73;
+    width: 177px;
+    height: 56px;
+    border: #D4AF73 1px solid;
+}
+#home {
+    height: 1117px;
+}
+.home-text {
+    width: 624px;
+    height: 377px;
+    padding: 11.9rem;
+    padding-top: 20rem;
+}
+.home-text h2 {
+    width: 491px;
+    height: 145px;
+    font-family: Alegreya;
+    font-weight: 700;
+    font-size: 75px;
+    color: #D4AF73;
+}
+.home-text p {
+    color: #FFFFFF;
+}
+.home-button {
+    width: 162px;
+    height: 56px;
+    background-color: #D4AF73;
+    border: 1px solid;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-image {
+    width: 596px;
+    height: 637px;
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
+.about-text {
+    font-size: 24px;
+    font-weight: 340;
+}
+.about-text h2 {
+    font-family: Alegraya;
+    font-size: 40px;
+}
+.about-text p {
+    width: 234px;
+    height: 29px;
+}
+.about-text .p2 {
+    width: 584px;
+    height: 116px;
+    padding-bottom: 2rem;
+}
+.about-button {
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 56px;
+    font-size: 18px;
+    border: 1px solid;
+}
+.our-services-header {
+    padding-top: 6rem;
+    font-family: Alegreya;
+    text-align: center;
+    font-size: 40px;
+}
+.services-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.services {
+    width: 307px;
+    height: 248px;
+    background-color: #F6EDE0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+.services h3 {
+    font-size: 15px;
+    text-align: center;
+}
+.services-2 {
+    width: 307px;
+    height: 248px;
+    background-color: #F1F1F1;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+.services-2 h3 {
+    font-size: 15px;
+    text-align: center;
+}
