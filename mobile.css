@@ -1,0 +1,271 @@
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 4000px;
+  }
+  nav {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    height: auto;
+  }
+  .nav-menu img {
+    width: 40px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .nav-menu {
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+  }
+  .menu {
+    flex-direction: row;
+  }
+  .menu li {
+    font-size: 28px;
+  }
+  .close-icon {
+    display: none;
+  }
+  .menu li a {
+    display: none;
+  }
+  nav button {
+    display: none;
+  }
+  .hero {
+    height: 800px;
+  }
+  .content {
+    top: 350px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .content button {
+    margin: 0 auto;
+  }
+  .content h1 {
+    font-size: 40px;
+  }
+  .layer1 img {
+    display: none;
+  }
+  .layer2 img {
+    width: 40px;
+    top: 10px;
+    right: 165px;
+  }
+  .about {
+    width: 100%;
+    height: 850px;
+    flex-direction: column;
+  }
+  .about img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .about-content {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    top: -200px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .about-content h2 {
+    font-size: 30px;
+  }
+  .about-content p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .about-content button {
+    margin: 0 auto;
+  }
+  .layer3,
+  .layer4 {
+    display: none;
+  }
+  .layer9 {
+    position: relative;
+  }
+
+  .our-service {
+    width: 100%;
+    height: 1000px;
+  }
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+
+  .sector {
+    width: 100%;
+    min-height: 400px;
+    flex-direction: column-reverse;
+  }
+  .sector-content p {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .sector img,
+  .practice img,
+  .partner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .sector-content,
+  .practice-content {
+    max-width: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    top: -200px;
+    gap: 0;
+  }
+  .sector-grid,
+  .practice-grid {
+    position: relative;
+    max-width: 80%;
+    padding: 10px;
+  }
+  .practice-content p {
+    width: 90%;
+    font-size: 12px;
+    padding: 10px;
+    text-align: start;
+  }
+  .practice,
+  .contact {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .partner {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .partner-content {
+    width: 80%;
+    padding: 20px;
+    top: -200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    z-index: 1;
+  }
+
+  .statement {
+    width: 100%;
+    min-height: 400px;
+    flex-direction: column;
+  }
+  .statement-content {
+    width: 100%;
+  }
+  .statement-content p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .contact-content {
+    width: 90%;
+    flex-direction: column;
+    height: 850px;
+  }
+  .contact-form,
+  .contact-map {
+    width: 100%;
+    align-items: center;
+  }
+  .contact-p {
+    width: 80%;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .name {
+    width: 100%;
+    flex-direction: column;
+  }
+  .email,
+  .message {
+    width: 100%;
+  }
+  .name input {
+    width: 100%;
+  }
+  .contact-form button {
+    margin: 0 auto;
+  }
+  .contact-content img {
+    width: 100%;
+    position: relative;
+  }
+  .address {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .our-service h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .sector-content h2,
+  .practice-content h2 {
+    font-size: 35px;
+    padding: 10px;
+  }
+  .sector-grid,
+  .practice-grid {
+    width: 100%;
+  }
+
+  .grid,
+  .grid-p {
+    width: 100%;
+  }
+  .card,
+  .card2 {
+    width: 100%;
+  }
+
+  .layer5 img {
+    width: 40px;
+    top: -445px;
+    right: 165px;
+  }
+
+  .footer {
+    width: 100%;
+  }
+  .footer-contente {
+    flex-direction: column;
+  }
+  .footer-m {
+    flex-direction: column;
+  }
+  .footer-a {
+    width: 100%;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .footer-a li a {
+    font-size: 12px;
+  }
+}
