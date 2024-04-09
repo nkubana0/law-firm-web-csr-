@@ -182,7 +182,7 @@ nav {
 }
 
 /* our service */
-.our-service {
+#our-service {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -193,7 +193,7 @@ nav {
   width: 100%;
   min-height: 30vh;
 }
-.our-service h2 {
+#our-service h2 {
   font-size: 40px;
 }
 .container {
@@ -386,7 +386,7 @@ nav {
 .statement {
   width: auto;
   min-height: 500px;
-  background: url(./assets/container.png) no-repeat;
+  background: url(images/container.png) no-repeat;
   background-size: cover;
 }
 .statement-content {
@@ -530,19 +530,16 @@ nav {
 
 /* footer */
 footer {
-  background-color: rgba(52, 52, 52, 1);
+  background-color: #868686;
   min-height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 .footer {
   position: relative;
   width: 100%;
   display: flex;
-  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
 }
 .footer-content {
   position: relative;
